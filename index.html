@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
-  <body>
+  <body bgcolor=#FFC0CB>
     <section class="page-header">
       <h1 class="project-name">My Love</h1>
       <h2 class="project-tagline">我们的爱</h2>
@@ -26,15 +26,56 @@
 Your browser does not support the audio element.
 </audio>
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<!--
+<script type="text/javascript">
+    var d = document;
+    canvas = d.body.appendChild( d.createElement( 'canvas' ) );
+    context = canvas.getContext( '2d' );
+    time = 0;
+    canvas.width = w = innerWidth;
+    canvas.height = h = innerHeight;
+    cos = Math.cos;
+    sin = Math.sin;
+    abs = Math.abs;
+    pow = Math.pow;
+    PI = Math.PI;
+    setInterval( function() {
+        context.clearRect( 0, 0, w, h );
+        context.fillStyle = 'rgba(138,43,226,0.5)';
+        context.globalCompositeOperation = 'lighter';
+        time += 0.5;
+        i = 20000;
+        while( i-- ) {
+            r = ( ( w + h ) * 0.4 ) * ( cos( ( time + i ) * ( 0.05 + sin( time * 0.00005 ) ) ) / 4.0 );
+            t = ( i - 10000.0 ) / 10000.0 * PI;
+            x = cos( t ) * r;
+            y = ( pow( cos( t ) , 2.0 / 3.0 ) + sin( t ) ) * r;
+            if( x < 0 ){
+                context.fillRect( x + w / 2 , y + h / 5 * 3 , 1 , 1 );
+                context.fillRect( -x + w / 2 , y + h / 5 * 3 , 1 , 1 );
+            }
+        }
+    }, 16 );
+</script>
 
-	<img src="images/love011.jpg"  width="100" alt="her!"  style="position:absolute; left:500px; top:600px; " />
-	<img src="images/love055.jpg"  width="100" alt="her!"  style="position:absolute; left:370px; top:520px; " />
-	<img src="images/love033.jpg"  width="100" alt="her!"  style="position:absolute; left:630px; top:520px; " />
-	<img src="images/love044.jpg"  width="100" alt="her!"  style="position:absolute; left:270px; top:670px; " />
-	<img src="images/love022.jpg"  width="100" alt="her!"  style="position:absolute; left:730px; top:670px; " />
-	<img src="images/love066.jpg"  width="100" alt="her!"  style="position:absolute; left:370px; top:830px; " />
-	<img src="images/love077.jpg"  width="100" alt="her!"  style="position:absolute; left:630px; top:830px; " />
-	<img src="images/love088.jpg"  width="100" alt="her!"  style="position:absolute; left:500px; top:950px; " />
+-->
+
+	<img src="images/love01.jpg"  width="100" alt="her!"  style="position:absolute; left:500px; top:600px; " />
+	<img src="images/love09.jpg"  width="100" alt="her!"  style="position:absolute; left:370px; top:520px; " />
+	<img src="images/love03.jpg"  width="100" alt="her!"  style="position:absolute; left:630px; top:520px; " />
+
+	<img src="images/love05.jpg"  width="100" alt="her!"  style="position:absolute; left:500px; top:700px; " />
+	<img src="images/love13.jpg"  width="100" alt="her!"  style="position:absolute; left:500px; top:825px; " />
+
+	<img src="images/love04.jpg"  width="100" alt="her!"  style="position:absolute; left:270px; top:670px; " />
+	<img src="images/love02.jpg"  width="100" alt="her!"  style="position:absolute; left:730px; top:670px; " />
+
+	<img src="images/love10.jpg"  width="100" alt="her!"  style="position:absolute; left:385px; top:690px; " />
+	<img src="images/love11.jpg"  width="100" alt="her!"  style="position:absolute; left:615px; top:690px; " />
+
+	<img src="images/love06.jpg"  width="100" alt="her!"  style="position:absolute; left:370px; top:830px; " />
+	<img src="images/love07.jpg"  width="100" alt="her!"  style="position:absolute; left:630px; top:830px; " />
+	<img src="images/love08.jpg"  width="100" alt="her!"  style="position:absolute; left:500px; top:950px; " />
 
 <!--
 <pre><code>$ cd your_repo_root/repo_name
@@ -48,10 +89,10 @@ $ git checkout gh-pages
 <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Only Love.</h3>
 -->
 	<footer class="site-footer" style="position:absolute; left:200px; top:1100px; ">
-		<p>
+		<p><B>
 		  辉丽，从2015年的3月16日起，珍惜与你在一起的每一天！<br/>
 		  执子之手，与子偕老，永远爱你，珍惜你，我的宝贝！
-		</p>
+		</B></p>
 
     </footer>
 
